@@ -9,7 +9,7 @@ client.remove_command('help')
 @client.event
 async def on_ready():
     print("Dołączyłem.")
-    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='06.06.2021r. Twórca bota: @NinjaaaSK#7850'))
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='10.06.2021r. Twórca bota: @NinjaaaSK#7850'))
 
 @tasks.loop(hours=24.0)
 async def promotor():
