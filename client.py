@@ -25,4 +25,4 @@ async def before_printer():
 
 promotor.start()
 
-client.run('ODUyMjgyMjE2NTg2MjgxMDIx.YMEjqw.Tp_c1p6WMgdruSrvdSbegQViP50')
+client.run('your_token_here')
