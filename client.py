@@ -16,7 +16,7 @@ async def promotor():
     guild1 = client.get_guild(851566107834974268)
     channel1 = discord.utils.find(lambda r: r.name == 'współpraca', guild1.text_channels)
     await channel1.send("Szukasz wsparcia technicznego, opieki nad serwerem discord? \n Szukasz odpowiedzi na nurtujące Cie pytania ze świata IT? \n Zapraszamy na naszego discorda oraz grupę na facebooku. \n Za działanie serwera oraz opiekę techniczną świadczy LP&TW. \n https://discord.gg/eUcb5xvyXs \n https://www.facebook.com/groups/linuxpolska \n https://i.ibb.co/Qvn4m65/Wideo-Full-HD-1920x1080-px.gif")
-    return "gotowe!"
+    return
 
 @promotor.before_loop
 async def before_printer():
